@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("./Frame33.jpg");
+}
+
+.container {
+  /* height: 800px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  flex-direction: column;
+  background-color: #272727;
+  border-radius: 34px;
+  padding: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 50px 50px 10px;
+}
+
+#display {
+  text-align: right;
+  background-color: #272727;
+  color: #29A8ff;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 14px;
+  height: 100px;
+  width: 320px;
+  /* margin: 10px 0; */
+}
+
+.keypad {
+  border-radius: 24px;
+  font-size: 2rem;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;  
+  grid-auto-rows: minmax(auto, auto);
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  height: 80px;
+  width: 80px;
+  border: none;
+  border-radius: 30px;
+  font-size: 2rem;
+  color: #29A8ff;
+  background-color: #303139;
+}
+
+.ac_btn,.dlt_btn{
+  background-color: #505051;
+}
+
+.equal {
+  background-color: #1991ff;
+  color: #ffffff;
+  border: none;
+  height: 100%;
+  grid-row: span 2;
+}
+.zero {
+  height: 100%;
+  border: none;
+  width: 100%;
+  grid-column: span 2;
+}
