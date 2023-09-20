@@ -1,0 +1,245 @@
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "spartan";
+  list-style-type: none;
+  text-decoration: none;
+}
+*::selection {
+  background: #8bc34a;
+}
+
+header {
+  background-color: #f7fed8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background: transparent;
+  mix-blend-mode: multiply;
+}
+nav ul {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 0 20px;
+}
+nav ul li a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
+nav ul li a:hover {
+  color: #009688;
+}
+
+
+
+.hero {
+  display: flex;
+  justify-content: center;
+  /* background-color: #f7fed8; */
+  align-items: center;
+  padding: 100px 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.offer {
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 75px;
+  font-size: xx-large;
+  border-radius: 50px;
+}
+
+#shop_btn {
+  padding: 10px 50px;
+  background-color: #8bc34a;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#shop_btn2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #8bc34a;
+  border: none;
+  border-radius: 05px;
+}
+.categoryProducts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  gap: 30px;
+}
+.productCards {
+  display: flex;
+  align-items: center;
+  
+  gap: 20px;
+}
+.card {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+}
+#basil_Leaf {
+  position: relative;
+  bottom: -105px;
+}
+#basil_Leaf2 {
+  position: relative;
+  bottom: -30px;
+}
+
+.trendingProducts,
+.bestSellingProducts {
+  height: 70vh;
+  background-color: #f7fed8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 50px;
+  padding: 100px 0;
+  border-radius: 50px;
+}
+.cardsWrapper {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.categoryCard {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Reviews Section */
+
+.review-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 250px;
+  height: 60vh;
+  justify-content: center;
+  gap: 20px;
+}
+.review_wrapper{
+  display: flex;
+
+  padding: 0 250px;
+  /* flex-direction: column; */
+}
+.review {
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.person-icon {
+  font-size: 40px;
+}
+
+.person-name {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.review-text {
+  font-style: italic;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.footerLeft {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.fMenuTitle {
+  font-size: 16px;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+  color: #808080;
+  cursor: pointer;
+}
+
+.footerRight {
+  flex: 1;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fInput {
+  padding: 5px;
+}
+
+.fButton {
+  padding: 5px 20px;
+  background-color: black;
+  color: white;
+}
+
+.fIcons {
+  display: flex;
+}
+
+.fIcons:hover {
+  cursor: pointer;
+}
+
+.fIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 14px;
+}
