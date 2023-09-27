@@ -51,18 +51,48 @@
     </div>
 
     <div id="wrapper">
-			<div class="header">
-				
-				<div>
-					<h1>Connect<span style="color: #d83018; font-size:42px;">4</span><span style="font-size:14px;font-family:Ubuntu;color:#999;"> (Beta)</span></h1>
-				</div>
-				
-				
-			</div>
-			
-
-			
-		</div>
-
+      <div class="header">
+        <div>
+          <h1>
+            Connect<span style="color: #d83018; font-size: 42px">4</span
+            ><span style="font-size: 14px; font-family: Ubuntu; color: #999">
+              (Beta)</span
+            >
+          </h1>
+        </div>
+      </div>
+      <div id="game-options">
+        <div>
+          <p><br /><br />What would you like to be called?</p>
+          <input
+            id="player-name1"
+            type="text"
+            size="20"
+            maxlength="40"
+            placeholder="Player Name 1"
+            tabindex="4"
+          />
+          <p></p>
+          <!-- For line break -->
+          <input
+            id="player-name2"
+            type="text"
+            size="20"
+            maxlength="40"
+            placeholder="Player Name 2"
+            tabindex="5"
+          />
+          <br />
+          <button
+            type="submit"
+            class="bttn"
+            onclick="setGameOptions();"
+            tabindex="6"
+          >
+            <i class="fa fa-play-circle-o fa-lg"></i>&nbsp; Play!
+          </button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
